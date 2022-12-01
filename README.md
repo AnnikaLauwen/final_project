@@ -14,6 +14,17 @@ In light of current social changes regarding acceptance and female liberty, we t
 ## Datasets used in this project
 The datasets used for this project are taken from Kaggle. Our first dataset, Music data, was used to gain access to data on artists, their songs, their explicit usage, the year of publication and their popularity. Because this dataset only contained the stage name of artists, we were unsure of their gender. This is why we chose our Gender dataset, so we could combine the two datasets to include gender in our analysis.
 
+
+## Methods
+We used T tests and Z tests to measure the significance of our findings. We compared male and female on different grounds, namely the ratio of their explicit and implicit songs. We compared these ratios using different genres, and on a timeline. 
+
+## Results
+We have created 2 piecharts showing male artists have roughly doule the explicit ratio than that of female artists. Besides this, when plotted on a timeline, we could see that women's explicit ratio is more volatile than men's, and that in both men and women there has been an increase in explicit songs. Using a 100% stcaked bar chart, we can see the different amount of explicit usage of men and women across genres, taken in total, so not including ratios. This way, we can see that in certain genres women have more explicit content than women do in other genres. We confirmed our results with t- and z-tests. 
+
+## Discussion
+There are some limitations to this research. Firstly, because the gender dataset was much smaller than the music dataset, and because the artists between datasets were not fully overlapping, this resulted in a dramastic decrease of our sample size. Secondly, we included a 100% stacked bar graph on total amount of explicit songs between men and women. However, this did not take into account that men and women do not have similar amounts of songs in these genres and that this could vary greatly between genres. To combat this, future research could include a 100% stacked bar graph on total amount of songs in genres between men and women. Furthermore, we have way less information and data on female artists than we do on male artists. Needless to say, there is less information on non-conventional genres, as this research was based on popular songs. 
+
+
 Link to datasets:
 
 Gender dataset -> https://www.kaggle.com/datasets/jackharding/spotify-artist-metadata-top-10k 
