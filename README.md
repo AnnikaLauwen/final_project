@@ -8,10 +8,13 @@ More specifically, we are investigating whether male or female artists have a hi
 artists, what the effect of explicit songs has on popularity
     
 ## Reason for this project
+In light of current social changes regarding acceptance and female liberty, we thought it would be interesting to see the changes in explicit content in songs of female artists. We were wondering wether men or women used more explicit language, how this was distributed along the genders, and how this had evolved over the years.
 
     
 ## Datasets used in this project
-The datasets used for this project are taken from Kaggle. More specifically:
+The datasets used for this project are taken from Kaggle. Our first dataset, Music data, was used to gain access to data on artists, their songs, their explicit usage, the year of publication and their popularity. Because this dataset only contained the stage name of artists, we were unsure of their gender. This is why we chose our Gender dataset, so we could combine the two datasets to include gender in our analysis.
+
+Link to datasets:
 
 Gender dataset -> https://www.kaggle.com/datasets/jackharding/spotify-artist-metadata-top-10k 
 
